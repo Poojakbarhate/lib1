@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toasty.sundaykoaana(this,"sunday ko mast naha dho ke aa");
-    }
+        Toasty.printMyToast(this,"Welcome to loylty rewardz");
+       }
 }
