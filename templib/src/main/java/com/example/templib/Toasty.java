@@ -10,6 +10,6 @@ public class Toasty {
     public static void showmsg(Context c)
 
     {
-        Toast.makeText(c,Constants.text , Toast.LENGTH_SHORT).show();
+        Toast.makeText(c,"pooja" , Toast.LENGTH_SHORT).show();
     }
 }
